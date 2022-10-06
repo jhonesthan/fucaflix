@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="nav" id="nav">
+        <a id="fucaflix" href="index.html"><h2>FUCAFLIX</h2></a> 
+        <a class="links-nav" href="login.html" id="home-home" >Login</a>
+        <a class="links-nav" href="cadastro.html">Cadastrar</a>
+        <a class="links-nav" href="categorias.html">Categorias</a>
+    </div>
+
+    <div class="container">
+
+        <form action="form" class="form">
+        <div>
+            <!-- <label for="form">Nome</label> -->
+                <input placeholder="Insira seu nome" type="text" name="nome" id="nome">
+            <!-- <label for="">CPF</label> -->
+                <input placeholder="Insira seu CPF" type="number" name="cpf" id="cpf">
+            <!-- <label for="form">Telefone</label> -->
+                <input placeholder="Insira seu telefone" type="number" name="telefone" id="telefone">  
+           
+        </div>  
+        <div>
+            <!-- <label for="form">Email</label> -->
+                <input  placeholder="Insira um Email" type="email" name="email" id="email">
+            <!-- <label for="form">Confirme Email</label> -->
+                <input  placeholder="Confirme o Email" type="email" name="email" id="email">
+            <!-- <label for="">CEP</label> -->
+                <input placeholder="Insira seu telefone (99) 9 9999-9999 " type="number" name="telefone" id="telefone">
+            
+       </div>
+       <div>
+            
+            <!-- <label for="senha">Insira uma senha</label> -->
+                <input placeholder="Escolha uma senha" type="password" name="senha" id="senha">
+            <!-- <label for="senha">Confirme sua senha</label>
+             -->
+                <input placeholder="Confirme a senha" type="password" name="senha" id="senha">
+            <!-- <label for="">Data de nascimento</label> -->
+            
+                <select name="pagamento" value="pagamento" id="pagamento">
+                    <option value="...">Forma de pagamento</option>
+                    <option value="credito">Cartão de Crédito</option>
+                    <option value="debito">Cartão de Débito</option>
+                    <option value="boleto">Boleto Bancário</option>
+                    <option value="pix">Via Pix</option>
+                </select>
+        </div>
+                <button type="submit">Finalizar Cadastro</button>
+        </form>
+    </div>
+
+</body>
+</html>
